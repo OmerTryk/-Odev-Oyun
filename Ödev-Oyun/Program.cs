@@ -26,7 +26,7 @@
                         {
                             Console.WriteLine("Tebrikler doğru cevap. Bir üst seviyeye geçtiniz : Zor");
                             Random rnd_zor = new Random();
-                            zor = rnd_zor.Next(1, 5);
+                            zor = rnd_zor.Next(1, 15);
 
                             do
                             {
