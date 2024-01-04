@@ -43,7 +43,7 @@
                                     skor -= 15;
                                     Console.WriteLine("Yanlış cevap , puanınız : " +skor);
                                 }
-                            } while (skor != 0);
+                            } while (skor > 0);
                         }
 
                         else
@@ -52,7 +52,7 @@
                             Console.WriteLine("Yanlış cevap , puanınız : " + skor);
                         }
 
-                    } while (skor != 0);
+                    } while (skor > 0);
 
                 }
 
@@ -62,7 +62,7 @@
                     Console.WriteLine("Yanlış cevap, puanınız : " + skor);
                 }
 
-            } while (skor != 0);
+            } while (skor > 0);
 
         }
     }
